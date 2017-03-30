@@ -115,12 +115,34 @@ html body {
 .section-video{
     width: 100wv;
     height: 870px;
-    background-color: aquamarine;
+    background-image: url("../images/nataBG.jpg");
+    background-size: cover;
 }
+.section-video .text p{
+    font-family: 'Rubik', sans-serif;
+}
+.text h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding: 35px 0 0 0;
+}
+.text p{
+    text-align: center;
+    color: white;
+    padding: 0 243px 0 243px;
+}
+.our-video{
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+
+
 .section-waiting{
     width: 100wv;
     height: 475px;
-    background-color: #31b34f;
+    background-color: #2ab325;
 }
 .section-test{
     width: 100wv;
