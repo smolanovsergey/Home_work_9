@@ -106,6 +106,17 @@ html body {
     width: 100wv;
     height: 670px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-welcome-left{
+    width: 500px;
+    color: #262628;
+}
+.section-welcome-right{
+    width: 500px;
+    color: #262628;
 }
 .section-feature{
     width: 100wv;
