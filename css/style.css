@@ -36,7 +36,71 @@ html body {
 .header{
     width: 100wv;
     height: 730px;
-    background-color: #364957;
+    background-image: url(../images/head_bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-left{
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    margin-left: 200px;
+}
+.header-left h2{
+    font-size: 40px;
+    margin-top: 110px;
+}
+.header-left h1{
+    font-size: 60px;
+}
+.header-left h3{
+    font-size: 40px;
+}
+.header-left h4{
+    font-size: 30px;
+}
+.header-right{
+    width: 400px;
+    height: 100%;
+    background-color: #1a293e;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+}
+.header-right input{
+    width: 90%;
+    height: 45px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.header-right p{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+.header-right .submit{
+    background-color: #f7941d;
+    height: 65px;
+    width: 90%;
+    margin-top: 47px;
+    color: white;
+    font-size: 30px;
+}
+.header-right .one{
+    text-align: left;
+    margin: 50px 0 0 20px;
+    font-size: 20px;
+}
+.header-right .one-big{
+    font-size: 40px;    
+    margin: 0 0 0 20px;
 }
 .section-welcome{
     width: 100wv;
