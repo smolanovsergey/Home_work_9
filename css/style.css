@@ -1,0 +1,70 @@
+html body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo {
+    width: 100wv;
+    height: 140px;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.logotype{
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    width: 297px;
+    height: 82px;
+    margin: 0 50px;
+}
+.red{
+    color: red;
+}
+.logotext {
+    margin: 0 100px;;
+    text-align: center;
+}
+.logotext p{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100wv;
+    height: 730px;
+    background-color: #364957;
+}
+.section-welcome{
+    width: 100wv;
+    height: 670px;
+    background-color: white;
+}
+.section-feature{
+    width: 100wv;
+    height: 1200px;
+    background-color: grey;
+}
+.section-video{
+    width: 100wv;
+    height: 870px;
+    background-color: aquamarine;
+}
+.section-waiting{
+    width: 100wv;
+    height: 475px;
+    background-color: #31b34f;
+}
+.section-test{
+    width: 100wv;
+    height: 620px;
+    background-color: #ffffff;
+}
+.footer{
+    width: 100wv;
+    height: 150px;
+    background-color: #31b34f;
+}
