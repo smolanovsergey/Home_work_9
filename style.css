@@ -1,0 +1,108 @@
+html body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+div.section-waiting {
+    width: 100%;
+    height: 340px;
+    background-color: #31b34f;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+span.text1 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.button {
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+    border: 1px solid grey;
+}
+div.section-test {
+    margin-left: 150px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+span.text2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+span.text3 {
+    font-size: 14px;
+}
+img.radius {
+    border-radius: 50%;
+}
+div.block1 {
+    display: inline-block;
+    float: left;
+}
+div.subblock1 {
+    float: left;
+    margin-top:20px;
+}
+div.subblock2 {
+    float: right;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+div.block2 {
+    float: right;
+    padding-left: 100px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #31b34f;
+    display: inline-block;
+}
+div.cr {
+    float: left;
+}
+.copyright {
+    color: white;
+    font-size: 14px;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+div.icons {
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 150px;
+    font-size: 25px;
+}
+.fa-facebook {
+    border-radius: 50%;
+    border: 2px solid white:
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+.fa-twitter {
+    border-radius: 50%;
+    border: 2px solid white:
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+.fa-wifi {
+    border-radius: 50%;
+    border: 2px solid white:
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+.fa-envelope {
+    border-radius: 50%;
+    border: 2px solid white:
+    color: white;
+    width: 35px;
+    height: 35px;
+}
