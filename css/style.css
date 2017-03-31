@@ -92,6 +92,7 @@ html body {
     margin-top: 47px;
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
 .header-right .one{
     text-align: left;
@@ -109,59 +110,141 @@ html body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 100px 150px;
+}
+#welcome{
+    font-size: 60px;
 }
 .section-welcome-left{
     width: 500px;
     color: #262628;
+    font-size: 20px;
 }
 .section-welcome-right{
     width: 500px;
-    color: #262628;
+    background-image: url(../images/section-welcome-right.jpg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+hr{
+    width: 90%;
+    color: grey;
+}
+#feature{
+    font-size: 40px;
+    padding-left: 150px;
 }
 .section-feature{
     width: 100wv;
-    height: 1200px;
-    background-color: grey;
+    height: 700px;
+}
+.photo-galary{
+    padding: 20px 20px;
+    text-align: center;
+}
+.feature-text{
+    padding-left: 150px;
+    width: 80%;
+    font-size: 20px;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 50px;        
+}
+.photo-halary img{
+    
 }
 .section-video{
     width: 100wv;
     height: 870px;
-    background-image: url("../images/nataBG.jpg");
-    background-size: cover;
-}
-.section-video .text p{
-    font-family: 'Rubik', sans-serif;
-}
-.text h2{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 60px;
-    color: white;
-    padding: 35px 0 0 0;
-}
-.text p{
+    background-color: aquamarine;
     text-align: center;
     color: white;
-    padding: 0 243px 0 243px;
+    background-image: url(../images/video_bg.jpg);
+    background-repeat: no-repeat;
 }
-.our-video{
-    text-align: center;
-    padding: 35px 0 0 0;
-}
-
-
 .section-waiting{
     width: 100wv;
-    height: 475px;
-    background-color: #2ab325;
+    height: 420px;
+    background-color: #31b34f;
+    text-align: center;
+}
+#video-wach{
+    font-size: 60px;
+}
+.waiting-text{
+    font-size: 60px;
+    margin-top: 0;
+    color: white;
+    padding-top: 50px;
+}
+.waiting-text-midle{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.section-waiting input{
+    background-color: #434345;
+    width: 360px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 .section-test{
     width: 100wv;
-    height: 620px;
+    height: 480px;
     background-color: #ffffff;
+}
+.test-text{
+    color: #121213;
+    font-size: 40px;
+    padding-left: 200px;    
+}
+.test-text-midle{
+    color: #121213;
+    font-size: 20px;
+    padding-left: 200px;
+}
+.piople{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 50px; 
+}
+.piple-left{
+    width: 500px;
+}
+.piple-right{
+    width: 500px;
+}
+.piople img{
+    width: 190px;
+    margin: 30px;
+    height: 190px;
+    border-radius: 95px;
+    float: left;
 }
 .footer{
     width: 100wv;
-    height: 150px;
+    height: 80px;
     background-color: #31b34f;
+}
+.copyright{
+    padding: 30px 0px 0px 200px;
+    color: white;
+    font-size: 20px;
+}
+.comment{
+    text-align: center;
+    background-color: black;
+    width: 100wv;        
+    color: white;
 }
